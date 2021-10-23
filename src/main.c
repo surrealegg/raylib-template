@@ -1,13 +1,13 @@
 #include "game.h"
 
-static void MainLoop(void) {
+void MainLoop(void) {
     BeginDrawing();
     ClearBackground(RAYWHITE);
     DrawText("Hello World!", 20, 20, 20, LIGHTGRAY);
     EndDrawing();
 }
 
-int main(int argc, char *argv[]) {
+int main() {
     InitWindow(800, 500, "Raylib Template");
 
 #ifdef __EMSCRIPTEN__

@@ -11,7 +11,7 @@
 extern "C" {
 #endif
 
-// TODO: Your functions here.
+void MainLoop(void);
 
 #ifdef __cplusplus
 }
